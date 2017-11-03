@@ -1,0 +1,53 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+              xmlns:app="http://schemas.android.com/apk/res-auto"
+              android:orientation="vertical"
+              android:layout_width="match_parent"
+              android:layout_height="match_parent">
+
+    <LinearLayout
+
+        android:id="@+id/image_block"
+        android:layout_width="wrap_content"
+        android:layout_height="60dp"
+        android:layout_gravity="bottom"
+        android:background="@drawable/bottombar"
+        android:gravity="bottom">
+
+
+        <ImageView
+            android:id="@+id/featurebtn"
+            android:clickable="true"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:background="@drawable/background_selector"
+            app:srcCompat="@drawable/fetaturebtn" />
+
+        <ImageView
+            android:id="@+id/listingbtn"
+            android:clickable="true"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:background="@drawable/background_selector"
+            app:srcCompat="@drawable/listingsbtn" />
+        <ImageView
+            android:id="@+id/nearMe"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:background="@drawable/background_selector"
+            app:srcCompat="@drawable/nearme" />
+
+        <ImageView
+            android:id="@+id/myfvrtbtn"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:background="@drawable/background_selector"
+            app:srcCompat="@drawable/myfavouritesbtn" />
+
+
+    </LinearLayout>
+</LinearLayout>

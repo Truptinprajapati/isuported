@@ -1,0 +1,17 @@
+<resources>
+    <string name="app_name">IsuportedAppsDemo</string>
+    <string name="title_activity_main">MainActivity</string>
+
+    <string name="navigation_drawer_open">Open navigation drawer</string>
+    <string name="navigation_drawer_close">Close navigation drawer</string>
+
+    <string name="action_ball">ball</string>
+    <string name="action_share">share</string>
+
+
+    <!-- TODO: Remove or change this placeholder text -->
+    <string name="hello_blank_fragment">Hello blank fragment</string>
+    <string name="title_activity_google">Map</string>
+    <string name="action_back">back</string>
+    <string name="action_exit">exit</string>
+</resources>

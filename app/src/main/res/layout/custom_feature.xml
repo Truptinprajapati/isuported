@@ -1,0 +1,117 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+              android:orientation="vertical"
+              android:layout_width="match_parent"
+              android:layout_height="match_parent">
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="100dp"
+        android:id="@+id/custom_feature_relativelayout">
+
+
+        <ImageView
+            android:id="@+id/images"
+            android:layout_width="100dp"
+            android:layout_height="100dp"
+            android:layout_alignParentLeft="true"
+            android:layout_alignParentStart="true"
+            android:layout_alignTop="@+id/recycler_tv1"
+            android:layout_marginLeft="17dp"
+            android:layout_marginStart="17dp" />
+
+        <ImageView
+            android:id="@+id/arrow"
+            android:layout_width="40dp"
+            android:layout_height="80dp"
+            android:background="@drawable/arrow"
+            android:layout_alignParentTop="true"
+            android:layout_alignParentRight="true"
+            android:layout_alignParentEnd="true"
+            android:layout_alignBottom="@+id/images" />
+
+        <RelativeLayout
+            android:id="@+id/rectengle"
+            android:layout_width="10dp"
+            android:layout_height="80dp"
+            android:layout_alignParentTop="true"
+            android:layout_alignBottom="@+id/images" />
+
+        <TextView
+            android:id="@+id/recycler_tv1"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignParentTop="true"
+            android:layout_marginLeft="31dp"
+            android:layout_marginStart="28dp"
+            android:layout_marginTop="5dp"
+            android:layout_toEndOf="@+id/images"
+            android:layout_toRightOf="@+id/images"
+            android:text="New Dac"
+            android:textSize="20sp" />
+
+        <TextView
+            android:id="@+id/recycler_tv2"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_below="@id/recycler_tv1"
+            android:layout_marginStart="28dp"
+            android:layout_toEndOf="@id/images"
+            android:text="Miles" />
+
+        <TextView
+            android:id="@+id/recycler_tv3"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_below="@id/recycler_tv2"
+            android:layout_marginStart="28dp"
+            android:layout_toEndOf="@id/images"
+            android:text="Discount" />
+
+        <TextView
+            android:id="@+id/recycler_tv4"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_below="@id/recycler_tv2"
+            android:layout_marginStart="8dp"
+            android:layout_toEndOf="@id/recycler_tv3"
+            android:text="Deatilprise" />
+
+        <TextView
+            android:id="@+id/recycler_tv5"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_below="@id/recycler_tv2"
+            android:layout_marginStart="5dp"
+            android:layout_toEndOf="@id/recycler_tv4"
+            android:text="Found" />
+
+        <TextView
+            android:id="@+id/recycler_tv6"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_below="@id/recycler_tv3"
+            android:layout_marginStart="39dp"
+            android:layout_toEndOf="@id/images"
+            android:text="51%" />
+
+        <TextView
+            android:id="@+id/recycler_tv7"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_below="@id/recycler_tv3"
+            android:layout_marginStart="108dp"
+            android:layout_toEndOf="@id/images"
+            android:text="51%" />
+
+        <TextView
+            android:id="@+id/recycler_tv8"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_below="@id/recycler_tv3"
+            android:layout_marginStart="168dp"
+            android:layout_toEndOf="@id/images"
+            android:text="51%" />
+    </RelativeLayout>
+
+</RelativeLayout>
